@@ -34,9 +34,6 @@ const experiencedCard = (props: Props) => {
         <ul className="list-disc list-inside ml-5 space-y-4 text-lg text-ellipsis overflow-hidden py-8">
           <li>summary of point</li>
           <li>summary of point</li>
-          <li>summary of point</li>
-          <li>summary of point</li>
-          <li>summary of point</li>
         </ul>
       </div>
     </article>

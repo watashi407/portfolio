@@ -35,7 +35,19 @@ const about = (props: Props) => {
         src="/a2.png"
         alt="Watashi WtF Momenet"
       />
-      <div className="space-y-10 px-0 md:px-10 ">
+      <motion.div
+        initial={{
+          opacity: 0,
+          x: 200,
+        }}
+        transition={{ duration: 1.2 }}
+        whileInView={{
+          opacity: 1,
+          x: 0,
+        }}
+        viewport={{ once: true }}
+        className="space-y-10 px-0 md:px-10 "
+      >
         <h4 className=" md:text-4xl font-semibold animate-pulse text-[15px]">
           Here is a <span className="overline text-[#d9f99d]">little</span>
           background
@@ -48,7 +60,7 @@ const about = (props: Props) => {
           dignissimos, at ea tenetur quibusdam accusantium eos officia officiis
           odio?
         </p>
-      </div>
+      </motion.div>
     </motion.div>
   );
 };

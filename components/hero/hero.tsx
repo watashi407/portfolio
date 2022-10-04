@@ -20,7 +20,7 @@ const hero = (props: Props) => {
   });
 
   return (
-    <div className="flex h-screen flex-col items-center justify-center space-y-8 text-center overflow-hidden relative scale-50">
+    <div className="flex h-screen flex-col items-center justify-center space-y-8 text-center overflow-hidden relative scale-75 md:scale-50">
       <Circle />
       <img
         className="relative object-cover rounded-full mx-auto h-32 w-32 hover:animate-spin cursor-pointer"
