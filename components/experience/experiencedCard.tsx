@@ -5,7 +5,7 @@ type Props = {};
 
 const experiencedCard = (props: Props) => {
   return (
-    <article className=" flex flex-col overflow-hidden rounded md:rounded-tr-[230px] md:rounded-b-[230px] items-center space-y-7 flex-shrink-0 w-[320px]  md:w-[600px] xl:w-[650px] snap-center bg-[#76a13c] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 ">
+    <article className=" flex flex-col overflow-hidden rounded  items-center space-y-7 flex-shrink-0 w-[300px]  md:w-[420px] xl:w-[420px] snap-center bg-[#76a13c] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 mt-5">
       <motion.img
         initial={{
           opacity: 0,
@@ -17,7 +17,7 @@ const experiencedCard = (props: Props) => {
           y: 0,
         }}
         viewport={{ once: true }}
-        className="w-32  h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center p-2 "
+        className="w-32  h-32 rounded-full xl:w-[150px] xl:h-[150px] object-cover object-center p-2 "
         title="dasdas"
         src="/dafuq.png"
       />
@@ -25,7 +25,7 @@ const experiencedCard = (props: Props) => {
         <h4 className="text-[12px] font-light text-center tracking-[5px] ">
           CEO OF WATASHI STUDIO
         </h4>
-        <p className="font-bold text-2xl mt-1">JABOL</p>
+        <p className="font-bold text-2xl mt-1 mx-auto">JABOL</p>
         <div className="flex space-x-2 my-2">
           <li></li>
           <li></li>
