@@ -5,7 +5,7 @@ type Props = {};
 
 const experiencedCard = (props: Props) => {
   return (
-    <article className="flex flex-col overflow-hidden rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center p-10 bg-[#0f172a] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200">
+    <article className=" flex flex-col overflow-hidden rounded-tr-[230px] rounded-b-[230px] items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[650px] snap-center p-2 bg-[#0f172a] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200">
       <motion.img
         initial={{
           opacity: 0,
@@ -31,7 +31,7 @@ const experiencedCard = (props: Props) => {
           <li></li>
         </div>
         <p></p>
-        <ul className="list-disc ml-5 space-y-4 text-lg ">
+        <ul className="list-disc list-inside ml-5 space-y-4 text-lg text-ellipsis overflow-hidden py-8">
           <li>summary of point</li>
           <li>summary of point</li>
           <li>summary of point</li>
