@@ -7,7 +7,8 @@ import Link from "next/link";
 type Props = {};
 
 const hero = (props: Props) => {
-  const [text, count] = useTypewriter({
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const [text] = useTypewriter({
     words: [
       "Hi , It`s me Alvin",
       "`The guy who love ☕`",
