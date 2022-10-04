@@ -25,6 +25,9 @@ const experience = (props: Props) => {
         <ExperiencedCard />
         <ExperiencedCard />
       </div>
+      <h2 className="absolute uppercase tracking-[15px] animate-pulse bottom-0 mb-2 md:invisible">
+        ➜ scroll side
+      </h2>
     </motion.div>
   );
 };
