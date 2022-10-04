@@ -20,7 +20,7 @@ const hero = (props: Props) => {
   });
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center space-y-8 text-center overflow-hidden relative">
+    <div className="flex h-screen flex-col items-center justify-center space-y-8 text-center overflow-hidden relative scale-50">
       <Circle />
       <img
         className="relative object-cover rounded-full mx-auto h-32 w-32 hover:animate-spin cursor-pointer"
@@ -42,7 +42,7 @@ const hero = (props: Props) => {
           <Link href="#about">
             <button className="heroButton">ABOUT</button>
           </Link>
-          <Link href="#">
+          <Link href="#skills">
             <button className="heroButton">SKILLS</button>
           </Link>
           <Link href="#experience">
