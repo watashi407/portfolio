@@ -31,7 +31,7 @@ const about = (props: Props) => {
           x: 0,
         }}
         viewport={{ once: true }}
-        className="-mb-20 md:mb-0 flex-shrink-0 scale-x-75 rounded-full w-56 h-56 object-cover md:rounded-lg md:h-64 md:h-95 xl:w-[300px] xl:h-[400px] cursor-pointer items-center"
+        className="-mb-20 md:mb-0 flex-shrink-0 scale-x-75 rounded-full w-35 h-35 object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[400px] cursor-pointer items-center"
         src="/a2.png"
         alt="Watashi WtF Momenet"
       />
