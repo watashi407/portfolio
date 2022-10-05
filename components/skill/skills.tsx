@@ -24,8 +24,8 @@ const skills = (props: Props) => {
         <Skill />
         <Skill />
       </div>
-      <h2 className="text-[7px] absolute uppercase tracking-[6px] animate-pulse bottom-0 mb-2 ">
-        ☝ Hover the icons
+      <h2 className="text-[7px] absolute uppercase tracking-[6px] animate-pulse bottom-0 mb-5 ">
+        👆 Hover the icons
       </h2>
     </motion.div>
   );
