@@ -9,7 +9,7 @@ import Skills from "../components/skill/skills";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[rgb(36,36,36)] h-screen text-white snap-y snap-mandatory  overflow-scroll z-0">
+    <div className="bg-[rgb(36,36,36)] h-screen text-white snap-y snap-mandatory  overflow-scroll overflow-x-hidden z-0 scroll-auto scrollbar-w-1 scrollbar-thumb-lime-300 scrollbar-track-slate-900">
       <Head>
         <title>Alvin Portfolio</title>
         <meta
