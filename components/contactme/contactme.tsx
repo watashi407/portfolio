@@ -11,12 +11,11 @@ const contactme = (props: Props) => {
       </h3>
       <div className="flex flex-col space-y-10">
         <h4 className="text-[17px] tracking-[4px] font-semibold text-center items-center xl:max-w-sm">
-          Don’t ignore the effort of a person who tries to keep in touch. It’s
-          not all the time someone cares "
+          Don`t ignore the effort of a person who tries to keep in touch. It`s
+          not all the time someone cares
           <span className="overline text-[#d9f99d] animate-pulse">
             So what you waiting for contact me now
           </span>{" "}
-          "
         </h4>
         <div className="space-y-2">
           <div className="flex items-left space-x-5 justify-center ">
