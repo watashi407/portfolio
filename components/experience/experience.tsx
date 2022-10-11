@@ -20,7 +20,12 @@ const experience = (props: Props) => {
       <h3 className="absolute uppercase tracking-[15px] text-[#d9f99d] animate-pulse top-24 text-2xl">
         experience
       </h3>
+<<<<<<< HEAD
       <div className="w-full flex space-x-3 overflow-x-scroll  scrollbar-w-1 scrollbar-thumb-lime-300 scrollbar-track-slate-900 p-10 snap-x snap-mandatory md:scale-75 xl:max-w-xl">
+=======
+
+      <div className="w-full flex space-x-5 overflow-x-scroll  scrollbar-w-1 scrollbar-thumb-lime-300 scrollbar-track-slate-900 p-10 snap-x snap-mandatory md:scale-75">
+>>>>>>> 0cbe420fd7921759ee1c7d4567012c1cf487eef9
         <ExperiencedCard />
         <ExperiencedCard />
       </div>
