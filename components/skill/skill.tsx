@@ -19,7 +19,7 @@ const skill = ({ directionLeft }: Props) => {
       />
       <div className="absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white rounded-full md:w-20 md:h-20 xl:w-30 xl:h-30 w-20 h-20 z-0">
         <div className="flex justify-center items-center h-full">
-          <p className="text-3xl font-bold text-black opacity-100">100%</p>
+          <p className="relative text-3xl font-bold text-black opacity-100">100%</p>
         </div>
       </div>
     </div>

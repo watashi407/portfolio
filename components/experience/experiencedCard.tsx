@@ -5,7 +5,7 @@ type Props = {};
 
 const experiencedCard = (props: Props) => {
   return (
-    <article className=" flex flex-col overflow-hidden rounded  items-center space-y-7 flex-shrink-0 w-[300px]  md:w-[420px] xl:w-[420px] snap-center bg-[#76a13c] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 mt-5">
+    <article className=" mb-5 flex flex-col overflow-hidden rounded  items-center space-y-12 flex-shrink-0 w-[300px]  md:w-[420px] xl:w-[420px] snap-center bg-[#76a13c] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 mt-5">
       <motion.img
         initial={{
           opacity: 0,
