@@ -23,7 +23,7 @@ const project = (props: Props) => {
               transition={{ duration: 1.2 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="w-80 h-80 rounded-[15px]"
+              className="w-52 h-42 rounded-[15px]"
               src="https://cdn.dribbble.com/users/33073/screenshots/14072456/media/a98716486520c066c4e0e369d3086f3a.png?compress=1&resize=768x576&vertical=top"
               alt=""
             />
