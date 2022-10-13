@@ -9,7 +9,7 @@ const contactme = (props: Props) => {
       <h3 className="uppercase absolute tracking-[15px] text-2xl text-[#d9f99d] animate-pulse top-24 ">
         Contact Me
       </h3>
-      <div className="flex flex-col space-y-5  mt-[80px]">
+      <div className="flex flex-col space-y-5  mt-[100px] items-center justify-center">
         <h4 className="text-[12px] tracking-[4px] font-semibold text-center items-center xl:max-w-sm">
           Don`t ignore the effort of a person who tries to keep in touch. It`s
           not all the time someone cares
@@ -18,7 +18,7 @@ const contactme = (props: Props) => {
           </span>{" "}
         </h4>
         <div className="space-y-2 text-[12px]">
-          <div className="flex items-left space-x-5 justify-center ">
+          <div className="flex items-center space-x-5 justify-center ">
             {" "}
             <PhoneIcon className="text-[#d9f99d] animate-pulse h-4 w-4" />
             <p>+63957900746</p>
@@ -35,14 +35,27 @@ const contactme = (props: Props) => {
           </div>
         </div>
 
-        <form className="w-fit flex flex-col space-y-2 mx-auto">
-          <div>
-            <input type="text" />
-            <input type="text" />
+        <form className="w-fit flex flex-col space-y-2 mx-auto rounded-[10px]">
+          <div className="flex space-x-2 ">
+            <input placeholder="firstname" className="inputStyle" type="text" />
+            <input placeholder="Email" className="inputStyle" type="email" />
           </div>
-          <input type="text" name="" id="" />
-          <textarea name="" id=""></textarea>
-          <button>submit</button>
+          <input
+            placeholder="Subject"
+            className="inputStyle"
+            type="text"
+            name=""
+            id=""
+          />
+          <textarea
+            placeholder="Message"
+            className="inputStyle"
+            name=""
+            id=""
+          ></textarea>
+          <button className="bg-lime-300 w-[100px] px-2 uppercase font-bold shadow-md flex items-center justify-center mx-auto text-black rounded-[5px] transition-all hover:bg-[#799742]">
+            submit
+          </button>
         </form>
       </div>
     </div>

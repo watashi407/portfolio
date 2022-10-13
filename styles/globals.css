@@ -6,4 +6,9 @@
   .heroButton {
     @apply cursor-pointer mx-1 px-4 py-1.5 border text-lime-200 rounded-full uppercase  tracking-widest text-sm border-[#4A5862] text-[8px] transition-all animate-pulse hover:border-blue-300 hover:text-blue-300 mt-5;
   }
+
+  .inputStyle {
+    @apply outline-none font-mono antialiased bg-[#85b957] rounded-sm border-l border-b-2 px-5 py-1 space-y-3 border-[#b8f645] align-middle items-center justify-center text-[#fafcf7] placeholder-[#fafafa] capitalize transition-all focus:border-[#587e5a] focus:bg-[#bff479] focus:text-[#587e5a] focus:animate-pulse
+    hover:border-[#587e5a] hover:text-[#587e5a] hover:animate-pulse;
+  }
 }
